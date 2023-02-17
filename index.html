@@ -190,23 +190,23 @@
                             </h3>
                             <form action="" class="get__form">
                                 <fieldset class="fg">
-                                    <input type="text">
+                                    <input required type="text">
                                     <label>Your name and surname</label>
                                 </fieldset>
                                 <fieldset class="fg">
-                                    <input type="text">
+                                    <input required type="text">
                                     <label>The name of your company (if applicable)</label>
                                 </fieldset>
                                 <fieldset class="fg custom_select">
-                                    <select>
-                                        <option value=""></option>
+                                    <select required>
+                                        <option value="" disabled></option>
                                         <option value="type1">type1</option>
                                         <option value="type2">type2</option>
                                     </select>
                                     <label>Select the type of your request</label>
                                 </fieldset>
                                 <fieldset class="fg">
-                                    <textarea></textarea>
+                                    <textarea required></textarea>
                                     <label>The text of your message</label>
                                 </fieldset>
                                 <button class="get__btn m-btn m-btn-accent">
